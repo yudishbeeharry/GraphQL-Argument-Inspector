@@ -166,7 +166,7 @@ def main(base_url):
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         print(f"Usage: python {sys.argv[0]} <base_url>")
-        print("Example: python graphql_args_full_introspection.py http://94.237.63.174:35005")
+        print("Example: python3 graphql_argument_inspector.py http://94.237.63.174:35005")
         sys.exit(1)
 
     main(sys.argv[1])
